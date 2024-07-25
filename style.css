@@ -1,0 +1,126 @@
+/* S T A R T      G L O P A L */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+
+/* S T A R T      H O M E */
+.nav{
+    background-color: transparent;
+    padding: 5px;
+}
+.nav img{
+    float: left;
+    width: 7%;
+    border-radius: 50%;
+    transition: 1s;
+}
+.nav img:hover{
+    transform: rotate(360deg);}
+
+.nav ul{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 30px;   
+}
+.nav li{
+    float: left;
+    width: 150px;
+}
+.nav li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background: rgb(0, 106, 255);
+    transition: 0.7s;
+}
+.content{
+    background-image:  linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url("./img/uni-hall.jpeg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.content .home
+{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.home img,h1,p{
+    margin-bottom: 30px;
+}
+p{
+    font-size: 30px;
+}
+.content .btn{
+    margin-top: 40px;
+    padding :10px 16px;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border-top: transparent;
+}
+.btn:hover{
+    background: white;
+    transition: 0.7s;
+    border: white;
+    border:solid;
+    border-top: transparent;
+
+}
+
+
+/* E N D          H O M E */
+.about{
+   /* background-color: teal; */
+   margin-top: 100px;
+}
+.item{
+    /* background-color: brown; */
+    width: 33.333333%;
+    float: left;
+
+}
+.item img{
+    width: 80%;
+    height: 50vh;
+    border: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 8px;
+    margin-left: 20px;
+    
+    
+}
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.extra{
+    background-image: url("./img/graduate.jpg");
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+
+}
